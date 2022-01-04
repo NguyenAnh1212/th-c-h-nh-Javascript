@@ -5,15 +5,26 @@
     <title>Title</title>
 </head>
 <body>
+<!-- Hien thi ket qua su dung ham alert-->
 <button type="button" onclick="wishes()">
     Ấn vào đây nhận lời chúc
 </button>
 <script>
     function wishes() {
         alert('Chúc bạn một đời an yên')
-    }
-
+        }
 </script>
+<!-- Hiển thị kết quả sử dụng thẻ HTML-->
+<div id="quote"></div>
+<button type="button" onclick="moodup()">
+    Good mood today
+</button>
+<script>
+    function moodup() {
+        document.getElementById("quote").innerHTML = "<h1>Không nỗ lực đừng tham vọng</h1>"
+    }
+</script>
+
 
 </body>
 </html>
