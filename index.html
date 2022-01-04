@@ -15,7 +15,7 @@
         }
 </script>
 <!-- Hiển thị kết quả sử dụng thẻ HTML-->
-<div id="quote"></div>
+<p id="quote"></p>
 <button type="button" onclick="moodup()">
     Good mood today
 </button>
@@ -24,7 +24,21 @@
         document.getElementById("quote").innerHTML = "<h1>Không nỗ lực đừng tham vọng</h1>"
     }
 </script>
-
-
+<!--Hiển thị kết quả sử dụng hàm document.wirte.-->
+<button type="button" onclick="taiyo()">
+    自分の太陽になり
+</button>
+<script>
+    function taiyo() {
+        document.write("Hãy là mặt trời của chính mình")
+    }
+</script>
+<!--Hiển thị kết quả sử dụng hàm console.log-->
+<button type="button" onclick="hienlenloichao()">Click here</button>
+<script>
+    function hienlenloichao() {
+        console.log("Have a nice day")
+    }
+</script>
 </body>
 </html>
